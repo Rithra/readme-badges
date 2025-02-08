@@ -4,7 +4,7 @@
     <td style="padding: 10px; vertical-align: top; font-weight: bold;">**Repo Name 2**<br>*(Faded description)* MVP: **Yes**</td>
   </tr>
   <tr>
-    <td style="padding: 10px; vertical-align: top;">
+    <td>
       ![Badge1](https://img.shields.io/badge/Status-Active-brightgreen) ![Badge2](https://img.shields.io/badge/Tests-Passing-green)
     </td>
     <td style="padding: 10px; vertical-align: top;">
