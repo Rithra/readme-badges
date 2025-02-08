@@ -1,9 +1,11 @@
 <table>
   <tr>
     <td><strong>Repo Name 1</strong><br><em>(Faded description)</em></td>
-    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right -->
     <td><strong>Repo Name 2</strong><br><em>(Faded description)</em></td>
-    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right -->
+  </tr>
+  <tr>
+    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right within the first column -->
+    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right within the second column -->
   </tr>
   <tr>
     <td>
@@ -24,4 +26,7 @@
     </td>
   </tr>
   <tr>
-    <td><strong>Version:</strong> v1.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></
+    <td><strong>Version:</strong> v1.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
+    <td><strong>Version:</strong> v2.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
+  </tr>
+</table>
