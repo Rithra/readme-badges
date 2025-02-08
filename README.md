@@ -25,7 +25,7 @@
   </tr>
 </table>
 
-Repo Name 1                           https://img.shields.io/badge/MVP-Yes-brightgreen        Repo Name 2                             https://img.shields.io/badge/Status-Active-brightgreen ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------
+Repo Name 1              [!Status](https://img.shields.io/badge/MVP-Yes-brightgreen)        Repo Name 2                             https://img.shields.io/badge/Status-Active-brightgreen ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------
 
 https://img.shields.io/badge/Status-Active-brightgreen                                      https://img.shields.io/badge/Tests-Passing-green
 https://img.shields.io/badge/Tests-Passing-green                                            https://img.shields.io/badge/Tests-Passing-green
