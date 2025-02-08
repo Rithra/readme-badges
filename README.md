@@ -1,18 +1,20 @@
-<table style="border: none; width: 100%; border-collapse: collapse;">
+<table>
   <tr>
-    <td style="padding: 10px; vertical-align: top; font-weight: bold;">**Repo Name 1**<br>*(Faded description)* MVP: **Yes**</td>
-    <td style="padding: 10px; vertical-align: top; font-weight: bold;">**Repo Name 2**<br>*(Faded description)* MVP: **Yes**</td>
+    <td><strong>Repo Name 1</strong><br><em>(Faded description)</em> MVP: <strong>Yes</strong></td>
+    <td><strong>Repo Name 2</strong><br><em>(Faded description)</em> MVP: <strong>Yes</strong></td>
   </tr>
   <tr>
     <td>
-      ![Badge1](https://img.shields.io/badge/Status-Active-brightgreen) ![Badge2](https://img.shields.io/badge/Tests-Passing-green)
+      <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Badge1"> 
+      <img src="https://img.shields.io/badge/Tests-Passing-green" alt="Badge2">
     </td>
-    <td style="padding: 10px; vertical-align: top;">
-      ![Badge1](https://img.shields.io/badge/Status-Active-brightgreen) ![Badge2](https://img.shields.io/badge/Tests-Passing-green)
+    <td>
+      <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Badge1"> 
+      <img src="https://img.shields.io/badge/Tests-Passing-green" alt="Badge2">
     </td>
   </tr>
   <tr>
-    <td style="padding: 10px; vertical-align: top;">**Version:** v1.0 **Links:** [GitHub](https://github.com)</td>
-    <td style="padding: 10px; vertical-align: top;">**Version:** v2.0 **Links:** [GitHub](https://github.com)</td>
+    <td><strong>Version:</strong> v1.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
+    <td><strong>Version:</strong> v2.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
   </tr>
 </table>
