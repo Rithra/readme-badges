@@ -2,24 +2,25 @@
   <tr>
     <td><strong>Repo Name 1</strong><br><em>(Faded description)</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspMVP: <strong>Yes</strong></td>
-    <td><strong>Repo Name 2</strong><br><em>(Faded description)</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MVP: <strong>Yes</strong></td>
+    <td><strong>Repo Name 2</strong><br><em>(Faded description)</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MVP: <strong>Yes</strong></td>
   </tr>
   <tr>
     <td>
-      <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status Badge"> 
-      <img src="https://img.shields.io/badge/Tests-Passing-green" alt="Tests Badge">
-      <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Coverage Badge">
-      <img src="https://img.shields.io/badge/Code%20Smells-Low-yellow" alt="Code Smells Badge"><br>
-      <img src="https://img.shields.io/badge/Duplicated%20Code-Low-yellow" alt="Duplicated Code Badge">
-      <img src="https://img.shields.io/badge/Security-High-red" alt="Security Badge">
+      <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge"> 
+      <img src="https://img.shields.io/badge/Tests-Passing-lightgray" alt="Tests Badge">
+      <img src="https://img.shields.io/badge/Coverage-90%25-lightgray" alt="Coverage Badge">
+      <img src="https://img.shields.io/badge/Code%20Smells-Low-lightgray" alt="Code Smells Badge"><br>
+      <img src="https://img.shields.io/badge/Duplicated%20Code-Low-lightgray" alt="Duplicated Code Badge">
+      <img src="https://img.shields.io/badge/Security-A-green" alt="Security Badge">
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status Badge"> 
-      <img src="https://img.shields.io/badge/Tests-Passing-green" alt="Tests Badge">
-      <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Coverage Badge">
-      <img src="https://img.shields.io/badge/Code%20Smells-Low-yellow" alt="Code Smells Badge"><br>
-      <img src="https://img.shields.io/badge/Duplicated%20Code-Low-yellow" alt="Duplicated Code Badge">
-      <img src="https://img.shields.io/badge/Security-High-red" alt="Security Badge"><br><br> <!-- Added extra spacing -->
+      <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge"> 
+      <img src="https://img.shields.io/badge/Tests-Passing-lightgray" alt="Tests Badge">
+      <img src="https://img.shields.io/badge/Coverage-90%25-lightgray" alt="Coverage Badge">
+      <img src="https://img.shields.io/badge/Code%20Smells-Low-lightgray" alt="Code Smells Badge"><br>
+      <img src="https://img.shields.io/badge/Duplicated%20Code-Low-lightgray" alt="Duplicated Code Badge">
+      <img src="https://img.shields.io/badge/Security-A-green" alt="Security Badge">
     </td>
   </tr>
   <tr>
