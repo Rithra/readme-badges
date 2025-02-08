@@ -1,8 +1,8 @@
-<table>
-  <tr>
-    <td width="50%">
+<div style="display: flex; justify-content: space-between;">
 
-### **Repo 1**
+<div style="width: 48%; border: 1px solid lightgray; padding: 10px;">
+
+### **Repo 1**  
 *(Faded description)*  
 MVP: **Yes**  
 
@@ -17,10 +17,11 @@ MVP: **Yes**
 **Version:** v1.0  
 **Links:** [GitHub](https://github.com)  
 
-    </td>
-    <td width="50%">
+</div>
 
-### **Repo 2**
+<div style="width: 48%; border: 1px solid lightgray; padding: 10px;">
+
+### **Repo 2**  
 *(Faded description)*  
 MVP: **Yes**  
 
@@ -35,6 +36,6 @@ MVP: **Yes**
 **Version:** v2.0  
 **Links:** [GitHub](https://github.com)  
 
-    </td>
-  </tr>
-</table>
+</div>
+
+</div>
