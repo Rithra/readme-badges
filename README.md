@@ -7,8 +7,8 @@
   </tr>
   <tr>
     <td>
-      <br><div style="display: flex; align-items:center;">Build: <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge"></div>
-      <img src="https://img.shields.io/badge/Tests-Passing-lightgray" alt="Tests Badge"><br>
+      <br><div style="display: flex; align-items:center;">Build: <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge">
+      <img src="https://img.shields.io/badge/Tests-Passing-lightgray" alt="Tests Badge"></div><br>
       <img src="https://img.shields.io/badge/Coverage-90%25-lightgray" alt="Coverage Badge">
       <img src="https://img.shields.io/badge/Code%20Smells-Low-lightgray" alt="Code Smells Badge"><br>
       <img src="https://img.shields.io/badge/Duplicated%20Code-Low-lightgray" alt="Duplicated Code Badge">
