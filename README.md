@@ -7,7 +7,7 @@
   </tr>
   <tr>
     <td>
-      <br><p>Build: <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge"> </p>
+      <br><div style="display: flex; align-items:center;"><p>Build:</p>p> <img src="https://img.shields.io/badge/Status-Active-lightgray" alt="Status Badge">
       <img src="https://img.shields.io/badge/Tests-Passing-lightgray" alt="Tests Badge"><br>
       <img src="https://img.shields.io/badge/Coverage-90%25-lightgray" alt="Coverage Badge">
       <img src="https://img.shields.io/badge/Code%20Smells-Low-lightgray" alt="Code Smells Badge"><br>
