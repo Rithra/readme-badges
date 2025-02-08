@@ -1,11 +1,7 @@
 <table>
   <tr>
-    <td><strong>Repo Name 1</strong><br><em>(Faded description)</em></td>
-    <td><strong>Repo Name 2</strong><br><em>(Faded description)</em></td>
-  </tr>
-  <tr>
-    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right within the first column -->
-    <td style="text-align: right;">MVP: <strong>Yes</strong></td> <!-- MVP moved to the right within the second column -->
+    <td><strong>Repo Name 1</strong><br><em>(Faded description)</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MVP: <strong>Yes</strong></td>
+    <td><strong>Repo Name 2</strong><br><em>(Faded description)</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MVP: <strong>Yes</strong></td>
   </tr>
   <tr>
     <td>
