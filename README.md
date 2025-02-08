@@ -24,7 +24,9 @@
     </td>
   </tr>
   <tr>
-    <td><strong>Version:</strong> v1.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
-    <td><strong>Version:</strong> v2.0 <strong>Links:</strong> <a href="https://github.com">GitHub</a></td>
+    <td><strong>Version:</strong> v1.0 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspLinks:</strong> <a href="https://github.com">GitHub</a></td>
+    <td><strong>Version:</strong> v2.0 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspLinks:</strong> <a href="https://github.com">GitHub</a></td>
   </tr>
 </table>
