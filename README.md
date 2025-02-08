@@ -24,3 +24,12 @@
     <td style="text-align: right;"><strong>Links:</strong> <a href="https://github.com">GitHub</a></td> <!-- Align Links to the right -->
   </tr>
 </table>
+
+Repo Name 1                           https://img.shields.io/badge/MVP-Yes-brightgreen        Repo Name 2                             https://img.shields.io/badge/Status-Active-brightgreen ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------
+
+https://img.shields.io/badge/Status-Active-brightgreen                                      https://img.shields.io/badge/Tests-Passing-green
+https://img.shields.io/badge/Tests-Passing-green                                            https://img.shields.io/badge/Tests-Passing-green
+https://img.shields.io/badge/Coverage-Passing-green                                         https://img.shields.io/badge/Coverage-Passing-green
+
+----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------
+Version: 0.0.1                                                   Links:                      Version: 0.0.1                                                           Links: 
