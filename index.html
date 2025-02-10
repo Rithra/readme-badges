@@ -13,8 +13,8 @@
     }
 
     .grid-table {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex; /* Flexbox instead of grid */
+      flex-direction: column;
       gap: 15px;
       max-width: 900px;
       margin: 20px auto;
@@ -58,30 +58,4 @@
       <div class="badges-section">
         <img src="https://img.shields.io/badge/coverage-98%25-brightgreen" alt="Coverage Badge">
         <img src="https://img.shields.io/badge/code%20smells-1-orange" alt="Code Smells Badge">
-        <img src="https://img.shields.io/badge/bugs-0-brightgreen" alt="Bugs Badge">
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Project 3</h2>
-      <p>Data processing engine with parallel computing optimization.</p>
-      <div class="badges-section">
-        <img src="https://img.shields.io/badge/coverage-89%25-yellowgreen" alt="Coverage Badge">
-        <img src="https://img.shields.io/badge/code%20smells-5-red" alt="Code Smells Badge">
-        <img src="https://img.shields.io/badge/bugs-2-red" alt="Bugs Badge">
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Project 4</h2>
-      <p>Real-time monitoring for IoT services with enhanced logging.</p>
-      <div class="badges-section">
-        <img src="https://img.shields.io/badge/coverage-92%25-brightgreen" alt="Coverage Badge">
-        <img src="https://img.shields.io/badge/code%20smells-2-orange" alt="Code Smells Badge">
-        <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
+        <img src="https://img.shields.io/b
