@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Badge Table UI</title>
+  <title>Badge Table UI with Shields.io</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -11,22 +11,6 @@
       padding: 20px;
       line-height: 1.6;
     }
-
-    .badge {
-      display: inline-block;
-      background-color: #007bff;
-      color: white;
-      font-size: 14px;
-      padding: 4px 12px;
-      border-radius: 12px;
-      margin-right: 10px;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .badge.red { background-color: #f44336; }
-    .badge.green { background-color: #4caf50; }
-    .badge.orange { background-color: #ff9800; }
 
     .grid-table {
       display: grid;
@@ -47,23 +31,24 @@
       margin-bottom: 15px;
     }
 
-    .badges-section {
-      margin-top: 10px;
+    .badges-section img {
+      margin-right: 10px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
 
-  <h1>Project Status with Badges</h1>
+  <h1>Project Status with Shields.io Badges</h1>
 
   <div class="grid-table">
     <div class="card">
       <h2>Project 1</h2>
       <p>Advanced codebase management for better maintainability.</p>
       <div class="badges-section">
-        <span class="badge green">Coverage: 95%</span>
-        <span class="badge orange">Code Smells: 3</span>
-        <span class="badge red">Bugs: 1</span>
+        <img src="https://img.shields.io/badge/coverage-95%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-3-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
       </div>
     </div>
 
@@ -71,9 +56,9 @@
       <h2>Project 2</h2>
       <p>Deployment automation for cloud-native applications.</p>
       <div class="badges-section">
-        <span class="badge green">Coverage: 98%</span>
-        <span class="badge orange">Code Smells: 1</span>
-        <span class="badge red">Bugs: 0</span>
+        <img src="https://img.shields.io/badge/coverage-98%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-1-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-0-brightgreen" alt="Bugs Badge">
       </div>
     </div>
 
@@ -81,9 +66,9 @@
       <h2>Project 3</h2>
       <p>Data processing engine with parallel computing optimization.</p>
       <div class="badges-section">
-        <span class="badge green">Coverage: 89%</span>
-        <span class="badge red">Code Smells: 5</span>
-        <span class="badge red">Bugs: 2</span>
+        <img src="https://img.shields.io/badge/coverage-89%25-yellowgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-5-red" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-2-red" alt="Bugs Badge">
       </div>
     </div>
 
@@ -91,9 +76,9 @@
       <h2>Project 4</h2>
       <p>Real-time monitoring for IoT services with enhanced logging.</p>
       <div class="badges-section">
-        <span class="badge green">Coverage: 92%</span>
-        <span class="badge orange">Code Smells: 2</span>
-        <span class="badge red">Bugs: 1</span>
+        <img src="https://img.shields.io/badge/coverage-92%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-2-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
       </div>
     </div>
   </div>
