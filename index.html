@@ -3,142 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stylized Table with Badges</title>
+  <title>Badge Table UI with Shields.io</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
       background-color: #f9f9f9;
       padding: 20px;
+      line-height: 1.6;
     }
 
     .grid-table {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
+      gap: 15px;
       max-width: 900px;
-      margin: 0 auto;
+      margin: 20px auto;
     }
 
     .card {
-      background-color: white;
+      background-color: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       padding: 15px;
-      text-align: left;
-      position: relative;
     }
 
-    .status {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      padding: 4px 8px;
-      font-size: 12px;
-      border-radius: 5px;
-      color: white;
+    h2 {
+      margin-bottom: 15px;
     }
 
-    .mvp-yes { background-color: #4caf50; }
-    .mvp-no { background-color: #f44336; }
-
-    .repo-name { font-size: 18px; font-weight: bold; margin-bottom: 5px; }
-    .repo-desc { font-size: 14px; color: #666; margin-bottom: 10px; }
-    
-    .badges {
-      display: flex;
-      gap: 10px;
-      margin-top: 10px;
-    }
-
-    .badge {
-      font-size: 12px;
-      padding: 5px 10px;
-      border-radius: 15px;
-      display: inline-block;
-    }
-
-    .version {
-      color: #007BFF;
-      font-weight: bold;
-      margin-top: 8px;
+    .badges-section img {
+      margin-right: 10px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
 
-  <h1>Stylized Grid Table with Badges</h1>
+  <h1>Project Status with Shields.io Badges</h1>
 
   <div class="grid-table">
     <div class="card">
-      <span class="status mvp-yes">MVP: Yes</span>
-      <div class="repo-name">Repo: ACME-Backend</div>
-      <div class="repo-desc">Backend service for ACME Inc. providing APIs and data processing.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-95%25-brightgreen" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-5-red" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-100%25-green" alt="Test Pass Rate Badge" class="badge">
+      <h2>Project 1</h2>
+      <p>Advanced codebase management for better maintainability.</p>
+      <div class="badges-section">
+        <img src="https://img.shields.io/badge/coverage-95%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-3-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
       </div>
-      <div class="version">Version: 0.0.1</div>
     </div>
 
     <div class="card">
-      <span class="status mvp-yes">MVP: Yes</span>
-      <div class="repo-name">Repo: Chocolate-Store</div>
-      <div class="repo-desc">An e-commerce platform for Chocolate Ltd. to sell various products online.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-87%25-yellowgreen" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-10-orange" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-95%25-yellowgreen" alt="Test Pass Rate Badge" class="badge">
+      <h2>Project 2</h2>
+      <p>Deployment automation for cloud-native applications.</p>
+      <div class="badges-section">
+        <img src="https://img.shields.io/badge/coverage-98%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-1-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-0-brightgreen" alt="Bugs Badge">
       </div>
-      <div class="version">Version: 0.0.1</div>
     </div>
 
     <div class="card">
-      <span class="status mvp-no">MVP: No</span>
-      <div class="repo-name">Repo: TNT-Scheduler</div>
-      <div class="repo-desc">A task scheduler for TNT Ltd. to handle background jobs and cron tasks.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-75%25-yellow" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-20-red" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-85%25-orange" alt="Test Pass Rate Badge" class="badge">
+      <h2>Project 3</h2>
+      <p>Data processing engine with parallel computing optimization.</p>
+      <div class="badges-section">
+        <img src="https://img.shields.io/badge/coverage-89%25-yellowgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-5-red" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-2-red" alt="Bugs Badge">
       </div>
-      <div class="version">Version: 0.0.1</div>
     </div>
 
     <div class="card">
-      <span class="status mvp-no">MVP: No</span>
-      <div class="repo-name">Repo: Sugar-CMS</div>
-      <div class="repo-desc">Content management system for Sugar Co. for managing website content and media.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-60%25-red" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-15-red" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-70%25-red" alt="Test Pass Rate Badge" class="badge">
+      <h2>Project 4</h2>
+      <p>Real-time monitoring for IoT services with enhanced logging.</p>
+      <div class="badges-section">
+        <img src="https://img.shields.io/badge/coverage-92%25-brightgreen" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-2-orange" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
       </div>
-      <div class="version">Version: 0.0.1</div>
-    </div>
-
-    <div class="card">
-      <span class="status mvp-yes">MVP: Yes</span>
-      <div class="repo-name">Repo: Fruit-API</div>
-      <div class="repo-desc">API for Fruit Corp. to manage inventory and orders of fruits and vegetables.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-90%25-brightgreen" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-3-green" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-100%25-green" alt="Test Pass Rate Badge" class="badge">
-      </div>
-      <div class="version">Version: 0.0.1</div>
-    </div>
-
-    <div class="card">
-      <span class="status mvp-no">MVP: No</span>
-      <div class="repo-name">Repo: Whimsy-App</div>
-      <div class="repo-desc">Mobile application for Whimsy Inc. to offer a variety of quirky services.</div>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Coverage-65%25-red" alt="Coverage Badge" class="badge">
-        <img src="https://img.shields.io/badge/Code%20Smells-18-red" alt="Code Smells Badge" class="badge">
-        <img src="https://img.shields.io/badge/Test%20Pass%20Rate-80%25-orange" alt="Test Pass Rate Badge" class="badge">
-      </div>
-      <div class="version">Version: 0.0.1</div>
     </div>
   </div>
 
