@@ -13,8 +13,8 @@
     }
 
     .grid-table {
-      display: flex;
-      flex-direction: column;
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row */
       gap: 15px;
       max-width: 900px;
       margin: 20px auto;
@@ -38,7 +38,7 @@
     }
 
     .separator {
-      border-top: 1px solid #ddd; /* Horizontal line */
+      border-top: 1px solid #ddd; /* Horizontal line inside card */
       margin: 15px 0;
     }
 
