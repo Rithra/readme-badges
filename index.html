@@ -25,7 +25,7 @@
       border-radius: 12px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       padding: 15px;
-      width: 400px;
+      width: 1000px;
     }
 
     h3 {
@@ -40,7 +40,14 @@
 
     .separator {
       border-top: 1px solid #ddd; /* Horizontal line inside card */
-      margin: 5px 0;
+    }
+
+    .separator:first-of-type {
+      margin-bottom: 15px; /* Increased space below the first separator */
+    }
+
+    .separator:last-of-type {
+      margin-top: 15px; /* Increased space above the second separator */
     }
 
     .badges-section img {
