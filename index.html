@@ -3,98 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Badge Table UI</title>
+  <title>Stylized Table with Badges</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
       background-color: #f9f9f9;
       padding: 20px;
-      line-height: 1.6;
     }
-
-    .badge {
-      display: inline-block;
-      background-color: #007bff;
-      color: white;
-      font-size: 14px;
-      padding: 4px 12px;
-      border-radius: 12px;
-      margin-right: 10px;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .badge.red { background-color: #f44336; }
-    .badge.green { background-color: #4caf50; }
-    .badge.orange { background-color: #ff9800; }
 
     .grid-table {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
+      gap: 20px;
       max-width: 900px;
-      margin: 20px auto;
+      margin: 0 auto;
     }
 
     .card {
-      background-color: #ffffff;
+      background-color: white;
       border-radius: 12px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       padding: 15px;
+      text-align: left;
+      position: relative;
     }
 
-    h2 {
-      margin-bottom: 15px;
+    .status {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 5px;
+      color: white;
     }
 
-    .badges-section {
+    .active { background-color: #4caf50; }
+    .inactive { background-color: #f44336; }
+
+    .name { font-size: 18px; font-weight: bold; margin-bottom: 5px; }
+    .company { font-size: 14px; color: #666; margin-bottom: 10px; }
+    
+    .badges {
+      display: flex;
+      gap: 10px;
       margin-top: 10px;
+    }
+
+    .badge {
+      background-color: #007BFF;
+      color: white;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 15px;
+      display: inline-block;
+    }
+
+    .earnings {
+      color: #007BFF;
+      font-weight: bold;
+      margin-top: 8px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Project Status with Badges</h1>
+  <h1>Stylized Grid Table with Badges</h1>
 
   <div class="grid-table">
     <div class="card">
-      <h2>Project 1</h2>
-      <p>Advanced codebase management for better maintainability.</p>
-      <div class="badges-section">
-        <span class="badge green">Coverage: 95%</span>
-        <span class="badge orange">Code Smells: 3</span>
-        <span class="badge red">Bugs: 1</span>
+      <span class="status active">Active</span>
+      <div class="name">Thomas Pudding</div>
+      <div class="company">ACME Inc.</div>
+      <div class="badges">
+        <span class="badge">Projects: 7</span>
+        <span class="badge">Meetings: 25</span>
       </div>
+      <div class="earnings">$3,550.30</div>
     </div>
 
     <div class="card">
-      <h2>Project 2</h2>
-      <p>Deployment automation for cloud-native applications.</p>
-      <div class="badges-section">
-        <span class="badge green">Coverage: 98%</span>
-        <span class="badge orange">Code Smells: 1</span>
-        <span class="badge red">Bugs: 0</span>
+      <span class="status active">Active</span>
+      <div class="name">Jonathon Pie</div>
+      <div class="company">Chocolate Ltd.</div>
+      <div class="badges">
+        <span class="badge">Projects: 8</span>
+        <span class="badge">Meetings: 18</span>
       </div>
+      <div class="earnings">$2,450.00</div>
     </div>
 
     <div class="card">
-      <h2>Project 3</h2>
-      <p>Data processing engine with parallel computing optimization.</p>
-      <div class="badges-section">
-        <span class="badge green">Coverage: 89%</span>
-        <span class="badge red">Code Smells: 5</span>
-        <span class="badge red">Bugs: 2</span>
+      <span class="status active">Active</span>
+      <div class="name">Katie Strudel</div>
+      <div class="company">TNT Ltd.</div>
+      <div class="badges">
+        <span class="badge">Projects: 3</span>
+        <span class="badge">Meetings: 9</span>
       </div>
+      <div class="earnings">$1,320.60</div>
     </div>
 
     <div class="card">
-      <h2>Project 4</h2>
-      <p>Real-time monitoring for IoT services with enhanced logging.</p>
-      <div class="badges-section">
-        <span class="badge green">Coverage: 92%</span>
-        <span class="badge orange">Code Smells: 2</span>
-        <span class="badge red">Bugs: 1</span>
+      <span class="status active">Active</span>
+      <div class="name">Madison Bagel</div>
+      <div class="company">Sugar Co.</div>
+      <div class="badges">
+        <span class="badge">Projects: 1</span>
+        <span class="badge">Meetings: 2</span>
       </div>
+      <div class="earnings">$720.00</div>
+    </div>
+
+    <div class="card">
+      <span class="status inactive">Inactive</span>
+      <div class="name">Sam Muffin</div>
+      <div class="company">Fruit Corp.</div>
+      <div class="badges">
+        <span class="badge">Projects: 4</span>
+        <span class="badge">Meetings: 12</span>
+      </div>
+      <div class="earnings">$930.90</div>
+    </div>
+
+    <div class="card">
+      <span class="status inactive">Inactive</span>
+      <div class="name">Carol Custard</div>
+      <div class="company">Whimsy Inc.</div>
+      <div class="badges">
+        <span class="badge">Projects: 6</span>
+        <span class="badge">Meetings: 14</span>
+      </div>
+      <div class="earnings">$1,720.40</div>
     </div>
   </div>
 
