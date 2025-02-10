@@ -25,19 +25,28 @@
       border-radius: 12px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       padding: 15px;
+      position: relative;
     }
 
     h2 {
       margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .badge-mvp {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: #007bff;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 12px;
     }
 
     .badges-section img {
       margin-right: 10px;
       vertical-align: middle;
-    }
-
-    .mvp-badge {
-      margin-top: 10px;
     }
   </style>
 </head>
@@ -48,14 +57,12 @@
   <div class="grid-table">
     <div class="card">
       <h2>Project 1</h2>
+      <div class="badge-mvp">MVP: Yes</div>
       <p>Advanced codebase management for better maintainability.</p>
       <div class="badges-section">
         <img src="https://img.shields.io/badge/coverage-95%25-brightgreen" alt="Coverage Badge">
         <img src="https://img.shields.io/badge/code%20smells-3-orange" alt="Code Smells Badge">
         <img src="https://img.shields.io/badge/bugs-1-red" alt="Bugs Badge">
-      </div>
-      <div class="mvp-badge">
-        <img src="https://img.shields.io/badge/MVP-Yes-brightgreen" alt="MVP Badge">
       </div>
     </div>
 
