@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylized Table</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .grid-table {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      padding: 15px;
+      text-align: left;
+      position: relative;
+    }
+
+    .status {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .active { background-color: #4caf50; }
+    .inactive { background-color: #f44336; }
+
+    .name { font-size: 18px; font-weight: bold; margin-bottom: 5px; }
+    .company { font-size: 14px; color: #666; margin-bottom: 10px; }
+    .details { font-size: 14px; color: #444; margin-top: 5px; }
+    .earnings { color: #007BFF; font-weight: bold; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+  <h1>Stylized Grid Table Example</h1>
+
+  <div class="grid-table">
+    <div class="card">
+      <span class="status active">Active</span>
+      <div class="name">Thomas Pudding</div>
+      <div class="company">ACME Inc.</div>
+      <div class="details">Projects: 7 | Meetings: 25</div>
+      <div class="earnings">$3,550.30</div>
+    </div>
+
+    <div class="card">
+      <span class="status active">Active</span>
+      <div class="name">Jonathon Pie</div>
+      <div class="company">Chocolate Ltd.</div>
+      <div class="details">Projects: 8 | Meetings: 18</div>
+      <div class="earnings">$2,450.00</div>
+    </div>
+
+    <div class="card">
+      <span class="status active">Active</span>
+      <div class="name">Katie Strudel</div>
+      <div class="company">TNT Ltd.</div>
+      <div class="details">Projects: 3 | Meetings: 9</div>
+      <div class="earnings">$1,320.60</div>
+    </div>
+
+    <div class="card">
+      <span class="status active">Active</span>
+      <div class="name">Madison Bagel</div>
+      <div class="company">Sugar Co.</div>
+      <div class="details">Projects: 1 | Meetings: 2</div>
+      <div class="earnings">$720.00</div>
+    </div>
+
+    <div class="card">
+      <span class="status inactive">Inactive</span>
+      <div class="name">Sam Muffin</div>
+      <div class="company">Fruit Corp.</div>
+      <div class="details">Projects: 4 | Meetings: 12</div>
+      <div class="earnings">$930.90</div>
+    </div>
+
+    <div class="card">
+      <span class="status inactive">Inactive</span>
+      <div class="name">Carol Custard</div>
+      <div class="company">Whimsy Inc.</div>
+      <div class="details">Projects: 6 | Meetings: 14</div>
+      <div class="earnings">$1,720.40</div>
+    </div>
+  </div>
+
+</body>
+</html>
