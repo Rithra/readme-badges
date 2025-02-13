@@ -108,6 +108,31 @@
       color: #0056b3; /* Subtle blue on hover */
       text-decoration: none; /* Ensure it stays without underline */
     }
+    
+    .links-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .links-section img {
+    width: 20px; /* Adjust the Swagger icon size */
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .env-links a {
+    text-decoration: none;
+    font-size: 0.85em;
+    margin-left: 8px;
+    color: #0056b3;
+    font-weight: 600;
+  }
+
+  .env-links a:hover {
+    text-decoration: underline;
+  }
   </style>
 </head>
 <body>
@@ -133,6 +158,14 @@
       <div class="version-section">
         <strong>Version:</strong> 1.2.3
       </div>
+      <div class="links-section">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png" alt="Swagger">
+      <div class="env-links">
+        <a href="#">Dev</a>
+        <a href="#">Stage</a>
+        <a href="#">Prod</a>
+      </div>
+</div>
   </div>
 
   <br>
