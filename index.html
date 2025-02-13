@@ -18,6 +18,16 @@
       gap: 15px;
       max-width: 900px;
       margin: 20px auto;
+      justify-content: start;
+    }
+
+    .single-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      width: 400px;
+      position: relative;
     }
 
     .card {
@@ -31,6 +41,7 @@
 
     h3 {
       margin: 0;
+      text-align: left;
     }
 
     h2 {
@@ -78,10 +89,33 @@
 </head>
 <body>
 
+  <h2>Repos</h2>
+  
+  <h2>Frontend Repos</h2>
 
-  <div class="grid-table">
+  <div class="single-card">
     <div class="card">
       <h3>Repo 1</h3>
+      <div class="description">Frontend application</div>
+      <div class="separator"></div>
+      <div class="badges-section">
+        <img src="https://img.shields.io/badge/coverage-95%25-green" alt="Coverage Badge">
+        <img src="https://img.shields.io/badge/code%20smells-3-yellow" alt="Code Smells Badge">
+        <img src="https://img.shields.io/badge/maintainability-B-lightgray" alt="Maintainability Badge">
+        <img src="https://img.shields.io/badge/bugs-1-teal" alt="Bugs Badge">
+        <img src="https://img.shields.io/badge/duplicatedcode-40-yellowgreen" alt="Duplicated Code Badge">
+      </div>
+      <div class="spacer"></div>
+      <div class="separator"></div>
+      <div class="version-section">
+        <strong>Version:</strong> 1.2.3
+      </div>
+    </div>
+  </div>
+  
+  <div class="grid-table">
+    <div class="card">
+      <h3>Repo 2</h3>
       <div class="description">Frontend application</div>
       <div class="separator"></div>
       <div class="badges-section">
@@ -94,25 +128,7 @@
       <div class="spacer"></div>
       <div class="separator"></div>
       <div class="version-section">
-      <strong>Version:</strong> 1.2.3
-    </div>
-    </div>
-
-    <div class="card">
-      <h3>Repo 2</h3>
-      <div class="description">Microservices for the backend apps</div>
-      <div class="separator"></div>
-      <div class="badges-section">
-        <img src="https://img.shields.io/badge/coverage-98%25-green" alt="Coverage Badge">
-        <img src="https://img.shields.io/badge/code%20smells-1-yellow" alt="Code Smells Badge">
-        <img src="https://img.shields.io/badge/maintainability-B-lightgray" alt="Bugs Badge">
-        <img src="https://img.shields.io/badge/bugs-1-teal" alt="Bugs Badge">
-        <img src="https://img.shields.io/badge/duplicatedcode-40-yellowgreen" alt="Bugs Badge">
-      </div>
-      <div class="spacer"></div>
-      <div class="separator"></div>
-      <div class="version-section">
-      <strong>Version:</strong> 1.2.3
+      <strong>Version:</strong> 0.0.1
     </div>
     </div>
 
@@ -130,7 +146,7 @@
       <div class="spacer"></div>
       <div class="separator"></div>
       <div class="version-section">
-      <strong>Version:</strong> 1.2.3
+      <strong>Version:</strong> 0.0.1
     </div>
     </div>
 
@@ -148,7 +164,7 @@
       <div class="spacer"></div>
       <div class="separator"></div>
       <div class="version-section">
-      <strong>Version:</strong> 1.2.3
+      <strong>Version:</strong> 0.0.1
     </div>
     </div>
   </div>
