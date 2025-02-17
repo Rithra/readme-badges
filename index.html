@@ -32,6 +32,8 @@
     }
 
     .card {
+      display: flex;
+      flex-direction: column;
       background-color: #ffffff;
       border-radius: 12px;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -39,6 +41,44 @@
       width: 400px;
       position: relative;
     }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.mvp-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between label and button */
+}
+
+.mvp-label {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #555;
+}
+
+.toggle-btn {
+  background: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.toggle-btn.active {
+  background: green;
+}
+
 
     h3 {
       margin: 0;
@@ -180,8 +220,14 @@
   <br>
   <div class="grid-table">
     <div class="card">
-      <h3>warden-facility-bff</h3>
-      <div class="description">Microservice for coordinating facility</div>
+      <div class="card-header">
+        <h3>warden-facility-bff</h3>
+          <div class="mvp-toggle">
+        <span class="mvp-label">MVP</span>
+      <button class="toggle-btn" onclick="toggleMVP(this)">No</button>
+    </div>
+  </div>
+  <div class="description">Microservice for coordinating facility</div>  
       <div class="separator"></div>
       <div class="badges-section">
         <img src="https://img.shields.io/badge/coverage-95%25-green" alt="Coverage Badge">
