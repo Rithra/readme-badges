@@ -48,64 +48,25 @@
   align-items: center;
 }
 
- .repo-toggle {
+ .repo-mvp {
     position: absolute;
-    top: 30px;
-    right: 20px;
+    top: 25px; /* Slightly down from the top */
+    right: 10px;
     display: flex;
     align-items: center;
   }
 
-  .toggle-label {
+    .mvp-button {
+    background-color: #8A9A5B; /* Swagger green */
+    color: black;
     font-size: 14px;
-    margin-right: 5px;
+    border: none;
+    padding: 6px 14px; /* Adjust padding for rectangle */
+    border-radius: 20px; /* Rounded rectangle */
+    font-weight: bold;
+    cursor: default;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
-
-  .toggle-switch {
-    position: relative;
-    display: inline-block;
-    width: 34px;
-    height: 20px;
-  }
-
-  .toggle-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: gray;
-    transition: 0.4s;
-    border-radius: 20px;
-  }
-
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 14px;
-    width: 14px;
-    left: 3px;
-    bottom: 3px;
-    background-color: white;
-    transition: 0.4s;
-    border-radius: 50%;
-  }
-
-  input:checked + .slider {
-    background-color: #8A9A5B;
-  }
-
-  input:checked + .slider:before {
-    transform: translateX(14px);
-  }
-
 
     h3 {
       margin: 0;
@@ -248,23 +209,11 @@
   <div class="grid-table">
     <div class="card">
         <h3>warden-facility-bff</h3>
-         <div class="repo-toggle">
-            <span class="toggle-label"><strong>MVP:</strong></span>
-            <label class="toggle-switch">
-              <input type="checkbox" onchange="toggleMVP(this)">
-              <span class="slider"></span>
-            </label>
-         </div>
-        <div class="description">Microservice for coordinating facility</div>  
-      <script>
-  function toggleMVP(checkbox) {
-    if (checkbox.checked) {
-      console.log("MVP is YES (Green)");
-    } else {
-      console.log("MVP is NO (Gray)");
-    }
-  }
-</script>
+          <div class="repo-mvp">
+            <span class="mvp-label">MVP:</span>
+            <button class="mvp-button">YES</button>
+          </div>
+        <div class="description">Microservice for coordinating facility</div>
       <div class="separator"></div>
       <div class="badges-section">
         <img src="https://img.shields.io/badge/coverage-95%25-green" alt="Coverage Badge">
